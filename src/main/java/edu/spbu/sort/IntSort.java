@@ -13,7 +13,7 @@ public class IntSort {
       return;
     int currentLow = low;
     int currentHigh = high;
-    int middle = array[low+(high-low)/2];
+    int middle = array[(high+low)/2];
     while (currentLow <= currentHigh) {
 
             while (array[currentLow] < middle)
